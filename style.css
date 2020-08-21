@@ -1,0 +1,119 @@
+/* 
+#3874a7     blue 
+#67ab44     green
+#aa73a5     purple
+#c8e2f1     light blue
+#efbb4d     tan
+*/
+
+
+/* 
+absolute forces it to be there, even if it overlaps
+relative will fit it in around whatever is already there
+*/
+
+
+body {
+  min-height: 400px;
+  clear: both;
+}
+
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #c8e2f1;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    border-bottom: .25em solid black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #3874a7;
+    color: black;
+    border-bottom: .25em solid #3874a7;
+  }
+
+#footer {
+   position:relative;
+   bottom:0;
+   width:100%;
+   background:#c8e2f1;
+   text-align: center;
+   overflow: hidden;
+   padding-bottom: 1%;
+   
+}
+
+
+#boxes {
+  display: block;
+    position: relative;
+}
+
+
+
+#firstbox{
+    display: block;
+    position: relative;
+}
+
+
+#flower{
+    float:left; margin:40px;
+    height: 20vw;
+    padding-left: 50px;
+}
+
+
+#firstboxtextbackground {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    background-color: #aa73a5;
+    right: 0; 
+    width: 80vw; 
+    padding-top: 9vw;
+    padding-bottom: 9vw;
+}
+
+
+#firstboxtext {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    padding-left: 100px;
+}
+
+#secondbox {
+  clear:both; /* Use this to get things to not overlap but go below instead */
+    
+}
+
+#secondboxtext {
+  text-align: center;
+    color: black;
+    font-size: xx-large;
+    padding-left: 100px;
+}
+
+
+#details {
+  color: #aa73a5;
+  font-size: xx-large;
+}
