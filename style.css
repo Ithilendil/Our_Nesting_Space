@@ -14,16 +14,18 @@ relative will fit it in around whatever is already there
 
 
 body {
-  min-height: 400px;
+  
+  min-height: 100%;
+  margin:0;
   clear: both;
 }
 
 
 
 
-/* Add a black background color to the top navigation */
+/* Add a background color to the top navigation */
 .topnav {
-    background-color: #c8e2f1;
+    background-color: rgb(247, 244, 242);
     overflow: hidden;
   }
   
@@ -32,32 +34,61 @@ body {
     float: left;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 16px; 
     text-decoration: none;
-    font-size: 17px;
+    
+    font-family: 'Lora', serif;
+    
   }
   
-  /* Change the color of links on hover */
+  /* Change the color of links on hover 
   .topnav a:hover {
     border-bottom: .25em solid black;
   }
+  */
+
+  #navName {
+    margin-left: 70px;
+    font-weight: 900;
+    font-size: 30px;
+  }
+
+  #navOptions {
+   float: right;
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 2em;
+  }
+
+
+  
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #3874a7;
-    color: black;
-    border-bottom: .25em solid #3874a7;
+    text-decoration: underline;
   }
 
+#bannerLogo {
+  padding: 5px;
+  padding-top: 15px;
+  padding-left: 10px;
+  width: 50px;
+  display: inline-block;
+  position: fixed;
+}
+
+
+
+
 #footer {
-   position:relative;
-   bottom:0;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   left: 0;
    width:100%;
-   background:#c8e2f1;
+   background: rgb(247, 244, 242);
    text-align: center;
    overflow: hidden;
-   padding-bottom: 1%;
-   
 }
 
 
@@ -75,9 +106,10 @@ body {
 
 
 #flower{
-    float:left; margin:40px;
+    float:left; 
+    margin:40px;
     height: 20vw;
-    padding-left: 50px;
+    padding-left: 5vw;
 }
 
 
