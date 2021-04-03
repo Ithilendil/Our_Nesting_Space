@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="Favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -16,24 +20,55 @@
         <a>Our Nesting Space</a>
     </div>
     <div id = "navOptions">
-        <a class="active" href="">Home</a>
-        <a href="">Blog</a>
-        <a href="">Contact</a>
-        <a href="">About</a>
+        <a class="active" href="#">Home</a>
+        <a href="https://ournestingspace.blogspot.com">Blog</a>
+        <a href="contact.html">Contact</a>
+      <!-- <a href="about.html">About</a>  -->  
     </div> 
     
   </div>
 
-<div id="boxes">
+<section id="slideshow-section">
 
-    <div id="firstbox">
-        <img src="Graphic1.png" alt="flower" id=flower>
-        <div id="firstboxtextbackground">
-            <p id="firstboxtext">More Details Coming Soon!</p>
-        </div>  
+    <div class="container">
+        <div class="mySlides">
+          <div class="numbertext"></div>
+          <img src="Back Yard View 1.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext"></div>
+          <img src="Back Yard View 2.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext"></div>
+          <img src="Brian Hardscape Plan.png" style="width:100%">
+        </div>
+          
+        <div class="mySlides">
+          <div class="numbertext"></div>
+          <img src="Grandkid Paradise.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext"></div>
+          <img src="View Garden.png" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <script src="script.js"></script>
+</section>
+
+<section id="leftside-section">
+    <div id="introDiv">
+        <p id="introText">With a degree in drafting and design and a life-long passion for plants and water conservation, I love creating unique landscapes that are perfect for Utah families. I will find what works best for your climate and location so that you are using less water and less time to keep your yard thriving all year long. I strive to make your space ideal for spending time with those you love.</p>
+        <img id="flower" src="Graphic1.png">
     </div>
-    
-</div>
+</section>
+
 
 
     
