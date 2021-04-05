@@ -121,6 +121,23 @@ body {
   padding-right: 65px;
 }
 
+#mainText {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  font-size: 2vw;
+  text-align: center;
+  background-color:rgb(169, 115, 165) ;
+}
+
+#mainDiv {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 #flower {
   max-height: 250px;
   padding-left: 15px;
